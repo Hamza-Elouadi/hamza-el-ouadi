@@ -234,7 +234,7 @@ h4{
 .information button:hover{
     filter: drop-shadow(0 0 30px rgb(0, 0, 0));
 }
-.information .title-p p{
+.i .title-p p{
     margin: 10px;
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -242,4 +242,137 @@ h4{
 .information img{
     width: 50px;
     height: 50px;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .A h1{
+        font-size: 60px;
+        margin: 30px;
+    }
+    .A a{
+        font-size: 30px;
+    }
+    .A .a1{
+        margin: 50px 0 50px 100px;
+    }
+    .box-2{
+        gap: 10px;
+    }
+    .box-2 .h2-p{
+        width: 500px;
+        height: 400px;
+    }
+    .contacte a{
+        margin: 10px;
+    }
+    .languages p{
+        font-size: 30px;
+    }
+    h5{
+        font-size: 30px;
+    }
+    .about-me img{
+        margin: 10px;
+    }
+    .about-me p{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .img-project{
+        margin: 10px;
+    }
+    .img-project p{
+        font-size: 10px;
+    }
+    .img-project img{
+        width: 200px;
+        height: 200px;
+    }
+    .information{
+        margin: 10px;
+        gap: 10px;
+    }
+    .information button{
+        margin: 20px;
+    }
+    .information .title-p h5{
+        font-size: 30px;
+    }
+    .i .title-p p{
+        font-size: 20px;
+    }
+    .information img{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .A{
+        margin: 0;
+        gap: 10px;
+    }
+    .A h1{
+        font-size: 50px;
+        margin: 10px;
+    }
+    .A .a1{
+        margin: 10px;
+    }
+    .A a{
+        font-size: 30px;
+        margin: 10px;
+    }
+    .box-2{
+        gap: 10px;
+    }
+    .box-2 .h2-p{
+        width: 500px;
+        height: 400px;
+    }
+    .contacte a{
+        margin: 10px;
+    }
+    .languages p{
+        font-size: 30px;
+    }
+    h5{
+        font-size: 30px;
+    }
+    .about-me img{
+        margin: 10px;
+    }
+    .about-me p{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .img-project{
+        margin: 10px;
+    }
+    .img-project p{
+        font-size: 10px;
+    }
+    .img-project img{
+        width: 200px;
+        height: 200px;
+    }
+    .information{
+        margin: 10px;
+        gap: 10px;
+    }
+    .information button{
+        margin: 10px;
+    }
+    .information .title-p h5{
+        font-size: 30px;
+    }
+    .i .title-p p{
+        font-size: 20px;
+    }
+    .information img{
+        width: 30px;
+        height: 30px;
+    }
 }
