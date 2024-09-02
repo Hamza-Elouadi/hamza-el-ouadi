@@ -41,6 +41,7 @@
 .A a:hover{
     color: rgb(255, 255, 255);
     cursor: default;
+    filter: drop-shadow(0 0 30px aqua);
 }
 .box-2{
     display: flex;
@@ -308,9 +309,15 @@ h4{
     }
 }
 @media (max-width: 480px) {
+    .img-backgrond{
+        height: 130%;
+    }
     .A{
         margin: 0;
         gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .A h1{
         font-size: 50px;
@@ -324,14 +331,14 @@ h4{
         margin: 10px;
     }
     .box-2{
-        gap: 10px;
+        gap: 5px;
     }
     .box-2 .h2-p{
         width: 500px;
         height: 400px;
     }
     .contacte a{
-        margin: 10px;
+        margin: 0px;
     }
     .languages p{
         font-size: 30px;
@@ -348,6 +355,10 @@ h4{
     h4{
         font-size: 30px;
     }
+    .project{
+        flex-direction: column;
+        margin: 10px;
+    }
     .img-project{
         margin: 10px;
     }
@@ -355,7 +366,7 @@ h4{
         font-size: 10px;
     }
     .img-project img{
-        width: 200px;
+        width: 300px;
         height: 200px;
     }
     .information{
@@ -364,6 +375,7 @@ h4{
     }
     .information button{
         margin: 10px;
+        padding: 0;
     }
     .information .title-p h5{
         font-size: 30px;
